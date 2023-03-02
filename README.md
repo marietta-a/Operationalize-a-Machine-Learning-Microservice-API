@@ -1,10 +1,10 @@
-## Project Overview
+## A. Project Overview
 
 In this project, you will apply the skills you have acquired in this course to operationalize a Machine Learning Microservice API.
 
 You are given a pre-trained, sklearn model that has been trained to predict housing prices in Boston according to several features, such as average rooms in a home and data about highway access, teacher-to-pupil ratios, and so on. You can read more about the data, which was initially taken from Kaggle, on the data source site. This project tests your ability to operationalize a Python flask app—in a provided file, app.py—that serves out predictions (inference) about housing prices through API calls. This project could be extended to any pre-trained machine learning model, such as those for image recognition and data labeling.
 
-### Project Tasks
+### B. Project Tasks
 Your project goal is to operationalize this working, machine learning microservice using kubernetes, which is an open-source system for automating the management of containerized applications. In this project you will:
 
 Test your project code using linting
@@ -17,38 +17,38 @@ Upload a complete Github repo with CircleCI to indicate that your code has been 
 
 ---
 
-### A. Dependencies
-#### A.1. Python
+### C. Dependencies
+#### C.1. Python
 [Download and install the python](https://www.python.org/downloads/). 
 
-#### A.2. Docker Desktop
+#### C.2. Docker Desktop
 You would require you to install Docker Desktop to create containers for individual microservices. Refer the following links for instructions 
 * [macOS](https://docs.docker.com/docker-for-mac/install/), 
 * [Windows 10 64-bit: Pro, Enterprise, or Education](https://docs.docker.com/docker-for-windows/install/), 
 * [Windows  10 64-bit Home](https://docs.docker.com/toolbox/toolbox_install_windows/). 
 * You can find installation instructions for other operating systems at:  https://docs.docker.com/install/
 
-#### A.3. Kubernetes 
+#### C.3. Kubernetes 
 You would need to install any one tool for creating a Kubernetes cluster - KubeOne / Minikube / kubectl on top of Docker Desktop:
 1. [Install and Set Up kubectl](https://kubernetes.io/docs/tasks/tools/install-kubectl/) directly on top of Docker desktop - For Windows/macOS
 2. [Install Minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/) - For Linux/macOS
 
-#### A.4. AWS account to access AWS Lambda
+#### C.4. AWS account to access AWS Lambda
 You'll need an [AWS account](https://aws.amazon.com/free/?all-free-tier.&all-free-tier.sort-by=item.additionalFields.SortRank&all-free-tier.sort-order=asc) to get started with [AWS Lambda](https://aws.amazon.com/lambda/), which is a serverless computing platform on cloud.  
 
-#### A.5. An account with Circle CI
+#### C.5. An account with Circle CI
 You may sign up on [CircleCI.com](https://circleci.com/signup/) with your GitHub credentials. 
 
 
-### B. Project Instructions
+### D. Project Instructions
 
 * [Operationalize a Machine Learning Microservice API](https://github.com/udacity/DevOps_Microservices/tree/master/project-ml-microservice-kubernetes): Deploy a containerized, machine learning application using Kubernetes.
 
 To run any project code, you'll have to set up a virtual environment with the project dependencies. All of the following instructions are to be completed via a terminal/command line prompt. 
 
-### C. Create and Activate an Environment
+### E. Create and Activate an Environment
 
-#### C.1. Git and version control
+#### E.1. Git and version control
 These instructions also assume you have `git` installed for working with Github from a terminal window, but if you do not, you can download that first from this [Github installation page](https://www.atlassian.com/git/tutorials/install-git).
 
 **Now, you're ready to create your local environment!**
@@ -76,14 +76,14 @@ Now most of the `.devops` libraries are available to you. There are a couple of 
 
 ---
 
-#### D.2. Other Libraries
+#### E.2. Other Libraries
 
 While you still have your `.devops` environment activated, you will still need to install:
 * Docker
 * Hadolint
 * Kubernetes ([Minikube](https://kubernetes.io/docs/tasks/tools/install-minikube/) if you want to run Kubernetes locally)
 
-#### D.3. Docker
+#### E.3. Docker
 
 You will need to use Docker to build and upload a containerized application. If you already have this installed and created a docker account, you may skip this step.
 
@@ -93,7 +93,7 @@ You will need to use Docker to build and upload a containerized application. If 
 
 3. After installation, you can verify that you’ve successfully installed docker by printing its version in your terminal: `docker --version`
 
-#### D.4. Run Lint Checks
+#### E.4. Run Lint Checks
 
 This project also must pass two lint checks; `hadolint` checks the Dockerfile for errors and `pylint` checks the `app.py` source code for errors.
 
