@@ -17,11 +17,16 @@ Upload a complete Github repo with CircleCI to indicate that your code has been 
 
 ---
 
-### C. Python Settup
+### C. Setting up virtual environment
 #### C.1. Installation, skip this step if you already have python installed
 [Download and install the python](https://www.python.org/downloads/). 
-#### C.2. Setting up virtual environment
+#### C.2. Setting up virtual environmentx
+1. Create a virtual environment
 ``source ~/.devops/bin/activate``
-#### C.3. Activating virtural environment
+2. Activating virtural environment
 ``python3 -m venv ~/.devops``
+
+cd into _project-ml-microservice-kubernetes_ directory and proceed with the following instructions
+### Installing dependencies
+``make install``
 
