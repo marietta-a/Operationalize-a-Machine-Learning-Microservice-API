@@ -30,3 +30,6 @@ cd into _project-ml-microservice-kubernetes_ directory and proceed with the foll
 ### Installing dependencies
 ``make install``
 
+
+### Status Badge
+[![CircleCI](https://dl.circleci.com/status-badge/img/gh/marietta-a/Operationalize-a-Machine-Learning-Microservice-API/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/marietta-a/Operationalize-a-Machine-Learning-Microservice-API/tree/master)
