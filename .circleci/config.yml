@@ -9,11 +9,11 @@ jobs:
     # Use the same Docker base as the project
     - image: python:3.7.3-stretch
 
-    working_directory: ~/project-ml-microservice-kubernetes
+    working_directory: ~/Operationalize-a-Machine-Learning-Microservice-API/project-ml-microservice-kubernetes
 
     steps:
     - checkout:
-        path: ~/project-ml-microservice-kubernetes
+        path: ~/Operationalize-a-Machine-Learning-Microservice-API
 
     # Download and cache dependencies
     - restore_cache:
