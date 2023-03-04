@@ -31,7 +31,7 @@ cd into _**project-ml-microservice-kubernetes**_ directory and proceed with the 
 ####  Installing dependencies
 ``make install``
 #### Linting
-make lint
+``make lint``
 
 ### Running app.py
 #### 1. Standalone
