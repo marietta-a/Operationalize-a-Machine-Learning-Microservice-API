@@ -28,9 +28,9 @@ Upload a complete Github repo with CircleCI to indicate that your code has been 
 
 
 ### Folder directory
-All important files for the project are located in *project-ml-microservice-kubernetes* root directory
+All important files for the project are located in **project-ml-microservice-kubernetes** root directory
 
-cd into _project-ml-microservice-kubernetes_ directory and proceed with the following instructions
+cd into _**project-ml-microservice-kubernetes**_ directory and proceed with the following instructions
 ####  Installing dependencies
 ``make install``
 #### Linting
