@@ -27,9 +27,6 @@ Upload a complete Github repo with CircleCI to indicate that your code has been 
 ``python3 -m venv ~/.devops``
 
 
-### Folder directory
-All important files for the project are located in **project-ml-microservice-kubernetes** root directory
-
 cd into _**project-ml-microservice-kubernetes**_ directory and proceed with the following instructions
 ####  Installing dependencies
 ``make install``
@@ -42,10 +39,16 @@ make lint
 #### 2. Run in docker
  `` ./run_docker.sh ``
 #### 3. Run in kubernetes
- - ensure you have a virtual machine and *minikube* installed
+ - ensure you have a virtual machine and *minikube* installedr
  - start a local cluster by running the command ``minikube start``
  - finally, run ``./run_kubernetes.sh`` to run app in kubernetes
  
+
+### Folder directory
+All important files for the project are located in **project-ml-microservice-kubernetes** root directory
+####  Output from running the app in various environments are found in _output_txt_files_
+1. Output from running in **docker** is found in `docker_out`
+2. Output from running in **kubernetes** is found in `kubernetes_out`
 
 ### Status Badge
 [![CircleCI](https://dl.circleci.com/status-badge/img/gh/marietta-a/Operationalize-a-Machine-Learning-Microservice-API/tree/master.svg?style=svg)](https://dl.circleci.com/status-badge/redirect/gh/marietta-a/Operationalize-a-Machine-Learning-Microservice-API/tree/master)
