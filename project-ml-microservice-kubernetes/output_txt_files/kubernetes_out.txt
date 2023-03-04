@@ -1,6 +1,20 @@
+<-- .run_kubernetes.sh outpu -->
+
 error: failed to create deployment: deployments.apps "project-ml-pod" already exists
 NAME                              READY   STATUS    RESTARTS   AGE
-project-ml-pod-5df77f9b6c-kb2x4   1/1     Running   0          37s
-pod: pod/project-ml-pod-5df77f9b6c-kb2x4
+project-ml-pod-857d66ff9f-v8sk7   1/1     Running   0          19s
+pod: pod/project-ml-pod-857d66ff9f-v8sk7
 Forwarding from 0.0.0.0:8000 -> 80
 Handling connection for 8000
+
+
+<--- make_prediction.sh output -->
+
+Port: 8000
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+100   260  100    48  100   212     43    194  0:00:01  0:00:01 --:--:--   238{
+  "prediction": [
+    20.35373177134412
+  ]
+}
