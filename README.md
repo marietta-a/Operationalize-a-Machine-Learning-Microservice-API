@@ -33,7 +33,7 @@ cd into _**project-ml-microservice-kubernetes**_ directory and proceed with the 
 #### Linting
 ``make lint``
 
-### Running app.py
+### Running Flask application
 #### 1. Standalone
  ``python app.py``
 #### 2. Run in docker
